@@ -1,8 +1,8 @@
-# Directadmin-1.53-nulled
+# Direct Admin 1.53 Nulled
 
 P/s: Chú ý bản này chỉ chạy được trên Centos 7 64bit
 
-Cài đặt:
+Hướng dẫn cài đặt:
 
 [root@vps190651 ~]# yum -y install nano wget perl
 
@@ -53,3 +53,4 @@ Chú ý sau khi cài xong sẽ ko run được thì khai báo port cho nó lện
 [root@vps190651 conf]# /usr/bin/perl -pi -e 's/^ethernet_dev=.*/ethernet_dev=eth0:100/' /usr/local/directadmin/conf/directadmin.conf
 
 [root@vps190651 conf]# service directadmin start
+Chúc các bạn thành công !
